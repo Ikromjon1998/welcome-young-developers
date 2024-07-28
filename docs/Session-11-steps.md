@@ -1,70 +1,171 @@
+### Session Plan: Styling Text with CSS – Making Words Look Awesome! ✍️
 
-## Session 11: Styling Your Websites with CSS! 🎨
+#### Session Objectives:
+- Understand basic CSS syntax.
+- Learn how to style text using CSS.
+- Apply various CSS properties to make text look visually appealing.
 
-### What is CSS?
+#### Session Outline:
+1. Introduction to CSS
+2. Basic CSS Syntax
+3. Styling Text with CSS
+    - Changing font family
+    - Changing font size
+    - Changing text color
+    - Text alignment
+    - Text decoration
+    - Font weight and style
+4. Hands-On Activity
+5. Q&A and Wrap-Up
 
-Imagine you're building a house (your HTML). You've got the walls, the roof, and the rooms, but it's all plain and boring.  CSS is like the paint, wallpaper, furniture, and decorations you use to make your house look awesome and match your style. 
+---
 
-*   CSS stands for Cascading Style Sheets.
-*   It's a separate language from HTML that lets you control how your website looks.
+## 1. Introduction to CSS
 
-**Why use CSS?**
+CSS stands for Cascading Style Sheets. It is used to describe how HTML elements should be displayed on the screen. CSS makes it easy to add styles like colors, fonts, and spacing to your web pages.
 
-*   **Colors:** Make your text and backgrounds any color you want.
-*   **Fonts:** Choose different fonts for a unique style.
-*   **Layout:**  Decide where things go on your page (like moving furniture in a room).
-*   **Effects:** Add cool things like shadows, rounded corners, or animations.
+### Example:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <p>Welcome to your first CSS lesson.</p>
+</body>
+</html>
+```
 
-### How does CSS work with HTML?
+---
 
-CSS talks to your HTML elements and tells them how to look.  Here's how it works:
+## 2. Basic CSS Syntax
 
-1.  **Selectors:** CSS finds the HTML element it wants to style (like a specific wall in your house).
-2.  **Properties:** CSS tells the element what to change (like painting the wall blue).
-3.  **Values:** CSS says exactly what the change should be (like choosing a light blue paint).
+CSS is made up of rules. Each rule has a selector and a declaration block. The selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons.
 
-### Let's write some CSS!
-
-Here's what a simple CSS rule looks like:
-
+### Example:
 ```css
-selector {
-  property: value;
+h1 {
+    color: blue;
+    font-size: 24px;
 }
 ```
 
-Let's break this down:
+In this example, `h1` is the selector, and `color: blue; font-size: 24px;` are the declarations.
 
-1.  **selector:** This tells CSS which HTML element to style. We'll learn different types of selectors soon.
-2.  **property:** This is what we want to change about the element (like color, font-size, etc.).
-3.  **value:** This is the specific setting for the property (like blue, 16px, etc.).
+### Mermaid Diagram:
+```mermaid
+graph TD;
+    A[HTML Element] -->|Selector| B[CSS Rule]
+    B -->|Declaration Block| C{Declarations}
+    C -->|Property| D[Value]
+```
 
-**Example:**
+---
+
+## 3. Styling Text with CSS
+
+### Changing Font Family
+You can change the font of your text using the `font-family` property.
 
 ```css
 p {
-  color: blue; 
-  font-size: 18px; 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 ```
 
-This CSS rule will make all paragraph (`<p>`) text on your page blue and 18 pixels in size.
+### Changing Font Size
+Use the `font-size` property to adjust the size of your text.
 
-### Selectors: Finding the right elements
+```css
+h1 {
+    font-size: 32px;
+}
+```
 
-Here are a few common ways to select HTML elements:
+### Changing Text Color
+The `color` property changes the color of your text.
 
-*   **Element Selector:**  Targets all elements of a certain type (e.g., `p` for all paragraphs).
-*   **ID Selector:** Targets a single, unique element (e.g., `#myHeading` for an element with the ID "myHeading").
-*   **Class Selector:** Targets multiple elements that share a common class (e.g., `.important` for all elements with the class "important").
+```css
+h2 {
+    color: green;
+}
+```
 
-### Try it yourself!
+### Text Alignment
+Align your text with the `text-align` property.
 
-1.  Open your "About Me" page.
-2.  Add a `<style>` tag in the `<head>` of your HTML file.
-3.  Inside the `<style>` tag, write CSS rules to:
-    *   Change the color and font of your page title (`<h1>`)
-    *   Make your paragraphs a different color and size
-    *   (Optional challenge) Create a class and add some special styling to it
+```css
+p {
+    text-align: center;
+}
+```
 
-**Important Note:** CSS is about having fun and experimenting! Try different properties and values to see what cool things you can create. 
+### Text Decoration
+Add decorations to your text like underline, overline, or line-through using the `text-decoration` property.
+
+```css
+a {
+    text-decoration: underline;
+}
+```
+
+### Font Weight and Style
+Use `font-weight` to make text bold, and `font-style` to italicize text.
+
+```css
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+```
+
+---
+
+## 4. Hands-On Activity
+
+### Task: Style the following HTML using CSS
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add your CSS here */
+    </style>
+</head>
+<body>
+    <h1>My Awesome Website</h1>
+    <p>This is a paragraph that needs some styling!</p>
+    <a href="#">This is a link</a>
+</body>
+</html>
+```
+
+### Instructions:
+1. Change the font family of the entire page to Arial.
+2. Set the `h1` color to blue and font size to 30px.
+3. Center align the paragraph text.
+4. Underline the link.
+
+---
+
+## 5. Q&A and Wrap-Up
+
+Feel free to ask any questions you have about CSS or today's lesson. Remember, practice makes perfect, so keep experimenting with different CSS properties!
+
+---
+
+### Summary:
+In this session, we learned about CSS and how to style text. We covered font families, font sizes, text colors, alignments, decorations, and more. Keep practicing to make your websites look awesome!
+
+---
+

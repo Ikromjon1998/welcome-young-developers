@@ -57,8 +57,6 @@ Let's create a simple table that lists your favorite books.
 </table>
 ```
 
-![Books Table Example](https://www.example.com/path-to-books-table-image)
-
 ---
 
 ### Adding Borders and Styling to Tables
@@ -81,8 +79,6 @@ You can add borders to your table to make it look more structured.
   </tr>
 </table>
 ```
-
-![Styled Table Example](https://www.example.com/path-to-styled-table-image)
 
 ---
 

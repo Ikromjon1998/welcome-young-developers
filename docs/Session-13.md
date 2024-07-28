@@ -1,33 +1,21 @@
-# Session 12: HTML Tables: Organizing Information! 📊
+## Session: HTML Tables - Organizing Information! 📊
 
-## Objectives
-By the end of this session, students will be able to:
-- Understand the structure of HTML tables.
-- Create tables to display data in rows and columns.
-- Style tables with basic CSS.
+### Objective:
+By the end of this session, students will be able to create tables in HTML to display data in rows and columns.
 
-## Introduction to HTML Tables
-HTML tables allow you to organize data into rows and columns. They are great for displaying structured information like schedules, prices, or any data that fits a grid format.
+---
 
-### Basic Table Structure
-An HTML table is created using the `<table>` element. Inside the table, we define rows with `<tr>` (table row) and columns with `<td>` (table data). 
+### Introduction to HTML Tables
 
-Here’s a simple example:
-```html
-<table>
-  <tr>
-    <td>Row 1, Cell 1</td>
-    <td>Row 1, Cell 2</td>
-  </tr>
-  <tr>
-    <td>Row 2, Cell 1</td>
-    <td>Row 2, Cell 2</td>
-  </tr>
-</table>
-```
+HTML tables are a way to organize information into rows and columns. They are especially useful for displaying data in a structured format.
 
-### Adding Table Headers
-To add headers to your table, use the `<th>` (table header) element inside a `<tr>`.
+---
+
+### Basic Structure of an HTML Table
+
+An HTML table is defined with the `<table>` tag. Each table row is defined with the `<tr>` tag. A table header is defined with the `<th>` tag. A table data/cell is defined with the `<td>` tag.
+
+#### Example:
 
 ```html
 <table>
@@ -36,138 +24,190 @@ To add headers to your table, use the `<th>` (table header) element inside a `<t
     <th>Header 2</th>
   </tr>
   <tr>
-    <td>Row 1, Cell 1</td>
-    <td>Row 1, Cell 2</td>
+    <td>Data 1</td>
+    <td>Data 2</td>
   </tr>
   <tr>
-    <td>Row 2, Cell 1</td>
-    <td>Row 2, Cell 2</td>
+    <td>Data 3</td>
+    <td>Data 4</td>
   </tr>
 </table>
 ```
 
-### Example Table: Class Schedule
+---
+
+### Creating Your First Table
+
+Let's create a simple table that lists your favorite books.
+
+```html
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+  </tr>
+  <tr>
+    <td>Harry Potter</td>
+    <td>J.K. Rowling</td>
+  </tr>
+  <tr>
+    <td>The Hobbit</td>
+    <td>J.R.R. Tolkien</td>
+  </tr>
+</table>
+```
+
+![Books Table Example](https://www.example.com/path-to-books-table-image)
+
+---
+
+### Adding Borders and Styling to Tables
+
+You can add borders to your table to make it look more structured.
+
 ```html
 <table border="1">
   <tr>
-    <th>Day</th>
-    <th>Subject</th>
-    <th>Time</th>
+    <th>Title</th>
+    <th>Author</th>
   </tr>
   <tr>
-    <td>Monday</td>
-    <td>Math</td>
-    <td>9:00 AM - 10:00 AM</td>
+    <td>Harry Potter</td>
+    <td>J.K. Rowling</td>
   </tr>
   <tr>
-    <td>Tuesday</td>
-    <td>Science</td>
-    <td>10:00 AM - 11:00 AM</td>
-  </tr>
-  <tr>
-    <td>Wednesday</td>
-    <td>History</td>
-    <td>11:00 AM - 12:00 PM</td>
+    <td>The Hobbit</td>
+    <td>J.R.R. Tolkien</td>
   </tr>
 </table>
 ```
 
-### Adding Style to Your Table
-You can make your tables look better with some basic CSS.
+![Styled Table Example](https://www.example.com/path-to-styled-table-image)
+
+---
+
+### Advanced Table Features
+
+#### 1. Merging Cells
+
+You can merge cells using the `colspan` and `rowspan` attributes.
 
 ```html
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-  }
-  th {
-    background-color: #f2f2f2;
-  }
-</style>
-
-<table>
+<table border="1">
   <tr>
-    <th>Day</th>
-    <th>Subject</th>
-    <th>Time</th>
+    <th colspan="2">Title</th>
   </tr>
   <tr>
-    <td>Monday</td>
-    <td>Math</td>
-    <td>9:00 AM - 10:00 AM</td>
+    <td rowspan="2">The Hobbit</td>
+    <td>J.R.R. Tolkien</td>
   </tr>
   <tr>
-    <td>Tuesday</td>
-    <td>Science</td>
-    <td>10:00 AM - 11:00 AM</td>
-  </tr>
-  <tr>
-    <td>Wednesday</td>
-    <td>History</td>
-    <td>11:00 AM - 12:00 PM</td>
+    <td>1937</td>
   </tr>
 </table>
 ```
 
-## Activity: Creating Your Own Table
-1. Ask students to create a table for their weekly homework schedule.
-2. They should include the following columns: Day, Subject, Homework Task, and Due Date.
+#### 2. Adding a Table Caption
 
-## Example Output
+You can add a caption to your table to describe its content.
+
 ```html
-<table>
+<table border="1">
+  <caption>Favorite Books</caption>
   <tr>
-    <th>Day</th>
-    <th>Subject</th>
-    <th>Homework Task</th>
-    <th>Due Date</th>
+    <th>Title</th>
+    <th>Author</th>
   </tr>
   <tr>
-    <td>Monday</td>
-    <td>Math</td>
-    <td>Exercise 5</td>
-    <td>Tuesday</td>
+    <td>Harry Potter</td>
+    <td>J.K. Rowling</td>
   </tr>
   <tr>
-    <td>Tuesday</td>
-    <td>Science</td>
-    <td>Read Chapter 3</td>
-    <td>Wednesday</td>
-  </tr>
-  <tr>
-    <td>Wednesday</td>
-    <td>History</td>
-    <td>Write an Essay</td>
-    <td>Thursday</td>
+    <td>The Hobbit</td>
+    <td>J.R.R. Tolkien</td>
   </tr>
 </table>
 ```
 
-## Visual Aid: Table Structure Diagram
-Let's add a diagram to visualize the structure of an HTML table.
+---
+
+### Interactive Exercise
+
+1. **Create a Table**: Create a table that lists your three favorite movies, their directors, and release years.
+2. **Add Styling**: Add a border to your table and style the headers.
+3. **Merge Cells**: Try merging some cells using `colspan` or `rowspan`.
+
+### Example Exercise Solution
+
+```html
+<table border="1">
+  <caption>Favorite Movies</caption>
+  <tr>
+    <th>Title</th>
+    <th>Director</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>The Lion King</td>
+    <td>Jon Favreau</td>
+    <td>2019</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Inception</td>
+    <td>Christopher Nolan</td>
+    <td>2010</td>
+  </tr>
+  <tr>
+    <td>Interstellar</td>
+    <td>Christopher Nolan</td>
+    <td>2014</td>
+  </tr>
+</table>
+```
+
+---
+
+### Visualizing Tables with Mermaid Diagrams
+
+Mermaid diagrams can help visualize table structures.
 
 ```mermaid
-graph TD;
-    Table --> TR1[<tr>]
-    TR1 --> TH1[<th>Header 1</th>]
-    TR1 --> TH2[<th>Header 2</th>]
-    Table --> TR2[<tr>]
-    TR2 --> TD1[<td>Row 1, Cell 1</td>]
-    TR2 --> TD2[<td>Row 1, Cell 2</td>]
-    Table --> TR3[<tr>]
-    TR3 --> TD3[<td>Row 2, Cell 1</td>]
-    TR3 --> TD4[<td>Row 2, Cell 2</td>]
+graph TD
+  A[Table]
+  B[Row]
+  C[Header 1]
+  D[Header 2]
+  E[Data 1]
+  F[Data 2]
+
+  A --> B
+  B --> C
+  B --> D
+  B --> E
+  B --> F
 ```
 
-![HTML Table](https://www.w3schools.com/html/img_table.gif)
+---
 
-## Wrap-Up
-- Review the key elements: `<table>`, `<tr>`, `<th>`, and `<td>`.
-- Highlight the importance of organizing data clearly.
-- Encourage students to experiment with different table structures and styles.
+### Conclusion
+
+HTML tables are a powerful tool to organize and display data. With the basics covered, you can now create and style your tables to make your data more presentable.
+
+---
+
+### Homework
+
+1. **Create a Personal Schedule**: Make a table that represents your weekly schedule.
+2. **Style It**: Add borders and a caption to your table.
+3. **Experiment**: Use `colspan` and `rowspan` to merge cells where needed.
+
+---
+
+### Resources
+
+- [W3Schools HTML Tables Tutorial](https://www.w3schools.com/html/html_tables.asp)
+- [MDN Web Docs - HTML Tables](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+
+---
+
+Happy coding! 🎉

@@ -1,7 +1,7 @@
 
 ---
 
-# Web Development for Young Coders: README
+# Web Development for Young Coders
 
 Welcome to the awesome world of web development! This course is designed to teach you the skills you need to create your own cool websites. Let's dive in!
 

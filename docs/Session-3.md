@@ -196,8 +196,6 @@ You did a fantastic job today! To reinforce what you've learned:
 
 - **Homework:** Finish your personal webpage if you didn’t complete it in class. Add some additional elements like more paragraphs or lists if you have time.
 
-- **Next Session Preview:** We’ll dive deeper into HTML, learning how to add images and links to your webpage!
-
 ## 🚀 **Fun Fact!**
 
 Did you know that the very first website was created by Tim Berners-Lee in 1991? It was a simple page of text and links that helped people understand the World Wide Web!

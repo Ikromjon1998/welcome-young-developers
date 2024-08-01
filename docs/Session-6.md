@@ -274,8 +274,6 @@ Fantastic work today! Here’s what to do next:
 
 - **Homework:** Complete your layout project. Experiment with different Flexbox properties and positioning techniques to enhance your design.
 
-- **Next Session Preview:** We’ll dive deeper into advanced CSS techniques, including CSS Grid for more complex layouts.
-
 ## 🚀 **Fun Fact!**
 
 Did you know that Flexbox and CSS Grid are two of the most powerful tools in CSS for creating layouts? They make designing responsive and flexible web pages much easier!

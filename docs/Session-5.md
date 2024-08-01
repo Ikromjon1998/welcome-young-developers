@@ -192,8 +192,6 @@ Great job today! Here’s what you need to do:
 
 - **Homework:** Complete the styling of your personal webpage. Experiment with different CSS properties to make it look unique.
 
-- **Next Session Preview:** We’ll dive deeper into CSS to learn about layouts and positioning, making your webpage even more organized and attractive!
-
 ## 🚀 **Fun Fact!**
 
 Did you know that CSS was first introduced in 1996? It has evolved significantly since then, becoming an essential tool for web designers worldwide!

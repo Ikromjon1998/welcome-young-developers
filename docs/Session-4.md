@@ -147,7 +147,7 @@ Test your understanding with a quick quiz!
 
 ## 🎥 **Video Tutorial**
 
-Watch this video that explains how to add images and links to your HTML page! [Insert link to a video tutorial here.]
+Watch this video that explains how to add images and links to your HTML page! YouTube or Any Free Resources
 
 ## 🛠️ **Hands-On Project: Build a Fun Webpage**
 
@@ -179,8 +179,6 @@ In this project, you’ll enhance your personal webpage by adding images and lin
 Great job today! Here’s what you need to do:
 
 - **Homework:** Finish adding images and links to your personal webpage. Experiment with different attributes and styles to make your page unique.
-
-- **Next Session Preview:** We’ll start exploring CSS to make your webpage look even more amazing!
 
 ## 🚀 **Fun Fact!**
 

@@ -262,7 +262,7 @@ Test your knowledge with a quick quiz!
 
 ## 🎥 **Video Tutorial**
 
-Watch this video to learn more about semantic HTML and its benefits! [Insert link to a video tutorial here.]
+Watch this video to learn more about semantic HTML and its benefits! Youtube - Or Any Other Free Resources
 
 ## 🛠️ **Hands-On Project: Enhance Your About Me Page with Semantic HTML**
 

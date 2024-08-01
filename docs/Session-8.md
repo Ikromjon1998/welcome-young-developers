@@ -15,9 +15,8 @@ Semantic HTML refers to HTML that introduces meaning to the web page rather than
 
 ### **Why Semantic HTML Matters**
 
-1. **Accessibility:** Semantic elements provide context to screen readers used by people with disabilities, helping them understand the content better.
-2. **SEO:** Search engines like Google use semantic HTML to understand the structure and content of your webpage, which can improve your search rankings.
-3. **Maintainability:** Semantic HTML makes your code easier to read and maintain, as it clearly describes the content and its role.
+1. **SEO:** Search engines like Google use semantic HTML to understand the structure and content of your webpage, which can improve your search rankings.
+2. **Maintainability:** Semantic HTML makes your code easier to read and maintain, as it clearly describes the content and its role.
 
 ### **Common Semantic HTML Elements**
 

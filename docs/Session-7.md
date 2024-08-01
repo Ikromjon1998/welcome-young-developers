@@ -214,8 +214,6 @@ Great job on your “About Me” page! Here’s what to do next:
 
 - **Homework:** Finish personalizing your page. Try adding new styles and elements to make it even more unique.
 
-- **Next Session Preview:** We’ll dive into more advanced CSS techniques, including CSS Grid for creating complex layouts.
-
 ## 🚀 **Fun Fact!**
 
 Did you know that the first personal webpages were created in the 1990s by early internet users? They were simple and text-based, just like our “About Me” page!

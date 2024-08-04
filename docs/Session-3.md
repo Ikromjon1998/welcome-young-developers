@@ -17,7 +17,6 @@ HTML stands for **HyperText Markup Language**. It’s the language used to creat
 
 - **Structure:** It organizes content on the page.
 - **Presentation:** It helps browsers understand how to display your content.
-- **Accessibility:** It makes your site accessible to everyone, including those with disabilities.
 
 ## 🔍 **Exploring HTML Elements**
 

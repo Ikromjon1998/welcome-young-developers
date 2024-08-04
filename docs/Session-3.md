@@ -9,15 +9,6 @@ By the end of this session, you will:
 2. Learn about basic HTML elements like headings, paragraphs, and lists.
 3. Write your first HTML code to create a simple webpage.
 
-## 📖 **Introduction to HTML**
-
-HTML stands for **HyperText Markup Language**. It’s the language used to create and design webpages. Think of HTML as the skeleton of your website. Just like our bones give shape and structure to our bodies, HTML tags give shape and structure to your webpages.
-
-### **Why is HTML Important?**
-
-- **Structure:** It organizes content on the page.
-- **Presentation:** It helps browsers understand how to display your content.
-
 ## 🔍 **Exploring HTML Elements**
 
 HTML elements are the building blocks of your webpage. Each element consists of an **opening tag**, **content**, and a **closing tag**. Let’s break it down:

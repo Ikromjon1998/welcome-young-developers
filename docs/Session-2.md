@@ -30,6 +30,15 @@ First things first, let’s get our coding tools ready!
 3. **Open Visual Studio Code:**
    - Once installed, open Visual Studio Code. You should see a welcome screen with options to open a folder, create a new file, or open an existing file.
 
+## 📖 **Introduction to HTML**
+
+HTML stands for **HyperText Markup Language**. It’s the language used to create and design webpages. Think of HTML as the skeleton of your website. Just like our bones give shape and structure to our bodies, HTML tags give shape and structure to your webpages.
+
+### **Why is HTML Important?**
+
+- **Structure:** It organizes content on the page.
+- **Presentation:** It helps browsers understand how to display your content.
+
 ### 2. Creating Your First HTML File
 
 Now that you have Visual Studio Code ready, let’s create your first HTML file!
